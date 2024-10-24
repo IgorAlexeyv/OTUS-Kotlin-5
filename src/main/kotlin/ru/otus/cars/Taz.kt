@@ -8,6 +8,11 @@ object Taz: Car {
         get() = throw NotImplementedError("Номера сняты")
 
     /**
+     * Бак
+     */
+    override lateinit var tank: Tank
+
+    /**
      * Цвет машины
      */
     override val color: String = "Ржавый"

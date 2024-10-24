@@ -5,6 +5,11 @@ package ru.otus.cars
  */
 interface Car : CarInput {
     /**
+     * Бак
+     */
+    var tank: Tank
+
+    /**
      * Номерной знак
      */
     val plates: Plates

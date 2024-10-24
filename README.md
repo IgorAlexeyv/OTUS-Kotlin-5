@@ -31,7 +31,7 @@
 ![LCE state diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/Android-Developer-Basic/Kotlin-6/master/doc/Car.puml)
 
 Сделайте машинам топливную систему:
-
+  
 - Семерка пусть ездит на газу
 - Восьмерка пусть ездит на бензине
 - ТАЗ может иметь любую систему, но его бак взрывается при попытке заправить (бросает исключение)

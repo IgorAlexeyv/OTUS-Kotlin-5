@@ -1,6 +1,8 @@
 package ru.otus.cars
 
 fun main() {
+    println("\n===> refuel")
+    refuelCars()
     println("\n===> drive cars...")
     driveCars()
     println("\n===> inner test...")
@@ -16,6 +18,16 @@ fun main() {
     techChecks()
     println("\n===> Taz...")
     println(Taz.color)
+}
+
+fun refuelCars(){
+    val cars: List<Car> = listOf(
+        Togliatti.buildCar(Vaz2107, Car.Plates("123", 77)),
+        Togliatti.buildCar(Vaz2108, Car.Plates("321", 78)),
+        Taz
+    )
+    val fuelStation = FuelStation()
+    fuelStation.reFuel(cars)
 }
 
 fun driveCars() {
